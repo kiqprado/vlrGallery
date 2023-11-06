@@ -259,6 +259,18 @@ footer a {
   color: var(--text);
 }
 
+@media (max-width: 908px) {
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 608px) {
+  section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @keyframes appearance {
   0% {
     opacity: 0;
